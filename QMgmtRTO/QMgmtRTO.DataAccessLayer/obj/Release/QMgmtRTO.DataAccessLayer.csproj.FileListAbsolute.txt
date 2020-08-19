@@ -1,0 +1,37 @@
+E:\SHAKTI - PROJECTS\Final Layered RTO - SPM\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Release\QMgmtRTO.DataAccessLayer.dll.config
+E:\SHAKTI - PROJECTS\Final Layered RTO - SPM\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Release\QMgmtRTO.DataAccessLayer.dll
+E:\SHAKTI - PROJECTS\Final Layered RTO - SPM\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Release\QMgmtRTO.DataAccessLayer.pdb
+E:\SHAKTI - PROJECTS\Final Layered RTO - SPM\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Release\QMgmtRTO.DataAccessLayer.dll
+E:\SHAKTI - PROJECTS\Final Layered RTO - SPM\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Release\QMgmtRTO.DataAccessLayer.pdb
+E:\SVN_CHECKOUT\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Release\QMgmtRTO.DataAccessLayer.dll.config
+E:\SVN_CHECKOUT\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Release\QMgmtRTO.DataAccessLayer.dll
+E:\SVN_CHECKOUT\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Release\QMgmtRTO.DataAccessLayer.pdb
+E:\SVN_CHECKOUT\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Release\QMgmtRTO.Entities.dll
+E:\SVN_CHECKOUT\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Release\QMgmtRTO.Entities.pdb
+E:\SVN_CHECKOUT\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Release\QMgmtRTO.DataAccessLayer.csprojResolveAssemblyReference.cache
+E:\SVN_CHECKOUT\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Release\QMgmtRTO.DataAccessLayer.dll
+E:\SVN_CHECKOUT\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Release\QMgmtRTO.DataAccessLayer.pdb
+E:\SVN_CHECKOUT_SERVER\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Release\QMgmtRTO.DataAccessLayer.dll.config
+E:\SVN_CHECKOUT_SERVER\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Release\QMgmtRTO.DataAccessLayer.dll
+E:\SVN_CHECKOUT_SERVER\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Release\QMgmtRTO.DataAccessLayer.pdb
+E:\SVN_CHECKOUT_SERVER\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Release\QMgmtRTO.Entities.dll
+E:\SVN_CHECKOUT_SERVER\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Release\QMgmtRTO.Entities.pdb
+E:\SVN_CHECKOUT_SERVER\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Release\QMgmtRTO.DataAccessLayer.csprojResolveAssemblyReference.cache
+E:\SVN_CHECKOUT_SERVER\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Release\QMgmtRTO.DataAccessLayer.dll
+E:\SVN_CHECKOUT_SERVER\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Release\QMgmtRTO.DataAccessLayer.pdb
+E:\BLDL2\RTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Release\QMgmtRTO.DataAccessLayer.dll.config
+E:\BLDL2\RTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Release\QMgmtRTO.DataAccessLayer.dll
+E:\BLDL2\RTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Release\QMgmtRTO.DataAccessLayer.pdb
+E:\BLDL2\RTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Release\QMgmtRTO.Entities.dll
+E:\BLDL2\RTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Release\QMgmtRTO.Entities.pdb
+E:\BLDL2\RTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Release\QMgmtRTO.DataAccessLayer.csprojResolveAssemblyReference.cache
+E:\BLDL2\RTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Release\QMgmtRTO.DataAccessLayer.dll
+E:\BLDL2\RTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Release\QMgmtRTO.DataAccessLayer.pdb
+E:\RTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Release\QMgmtRTO.DataAccessLayer.dll.config
+E:\RTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Release\QMgmtRTO.DataAccessLayer.dll
+E:\RTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Release\QMgmtRTO.DataAccessLayer.pdb
+E:\RTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Release\QMgmtRTO.Entities.dll
+E:\RTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Release\QMgmtRTO.Entities.pdb
+E:\RTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Release\QMgmtRTO.DataAccessLayer.csprojResolveAssemblyReference.cache
+E:\RTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Release\QMgmtRTO.DataAccessLayer.dll
+E:\RTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Release\QMgmtRTO.DataAccessLayer.pdb

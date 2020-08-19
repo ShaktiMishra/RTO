@@ -1,0 +1,127 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.headerSection {
+	background: #003058;
+	padding: 10px 0px;
+}
+.headerSection .logoarea .logo {
+	color: #f1f1f1;
+	font-size: 26px;
+	text-transform: uppercase;
+	display: inline-block;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.headerSection .header-right-content{}
+.headerSection .header-right-content .account-holder {
+	display: block;
+	float: right;
+	width: 318px;
+}
+.headerSection .header-right-content .account-holder img{width:62px; border-radius:50%; float:left; margin-right:15px;}
+.headerSection .header-right-content .account-holder h2 {
+	color: #FFF;
+	font-size: 17px;
+	font-weight: 600;
+}
+.headerSection .header-right-content .log-out-btn {
+	float: right;
+	margin-bottom: 0;
+	padding: 10px 10px 10px 0;
+	font-size: 27px;
+}
+.headerSection .header-right-content .account-holder p {
+	color: #FFF;
+	font-style: italic;
+	font-size: 13px;
+	margin: 0;
+}
+.account-holder-content {
+	margin-top: 5px;
+}
+.headerSection .header-right-content .log-out-btn .fas {
+	color: #FFF;
+}
+.tokenArea {
+	display: table;
+	height: 300px;
+	text-align: center;
+	width: 100%;
+	background: #b9d4e9;
+	border: 2px solid #ccc;
+	border-radius: 10px;
+	margin-bottom: 15px;
+}
+.tokenArea .tokenBox {
+	display: table-cell;
+	vertical-align: middle;
+}
+.bodyLeftbox {padding: 15px 0;}
+
+.statisticBox h2 {
+	background: #003058;
+	color: #FFF;
+	font-size: 20px;
+	line-height: 40px;
+	font-weight: 600;
+	padding: 0 15px;
+	margin-bottom:15px;
+}
+.statisticBox .statusBox{ padding:0 15px;}
+.statisticBox .statusBox h3 {
+	font-size: 16px;
+	font-weight: 600;
+}
+.statisticBox .greenBar {
+	background: #05a401;
+	padding: 15px;
+}
+.bodyRightbox {
+	background: #f0f0f0;
+	height: 500px;
+	padding:15px 0;
+	overflow:hidden;
+}
+.demandBox {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background: #FFF;
+	margin-bottom:15px;
+}
+.demandBox h2 {
+	background: #067a27;
+	color: #FFF;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 8px;
+	line-height: 15px;
+}
+.demandBox p{ text-align:center; margin:0px;}
+.remove-margin.row {
+	margin: 0;
+}
+.midBlubtn button {
+	background: #093a65;
+	width: 100%;
+	padding: 23px;
+	color: #FFF;
+	font-size: 27px;
+	font-weight: 600;
+	border: 0px none;
+	border-radius: 5px;
+}
+.midBlubtn {
+	margin-bottom: 15px;
+}
+.mid {
+	background: #093a65;
+	width: 100%;
+	padding: 23px;
+	color: #FFF;
+	font-size: 27px;
+	font-weight: 600;
+	border: 0px none;
+	border-radius: 5px;
+    margin-bottom: 15px;
+}

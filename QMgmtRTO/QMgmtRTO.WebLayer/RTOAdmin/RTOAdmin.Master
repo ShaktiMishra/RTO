@@ -1,0 +1,328 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="RTOAdmin.master.cs" Inherits="QMgmtRTO.WebLayer.RTOAdmin.RTOAdmin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta name="maValidation" content="bdf5b5569d28a382a610300e980a8451" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>RTO : Queue management system</title>
+    <link rel="icon" type="image/ico" href="../assets/images/favicon.png" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- ============================================
+        ================= Stylesheets ===================
+        ============================================= -->
+    <!-- vendor css files -->
+    <link rel="stylesheet" href="../assets/css/vendor/bootstrap.min.css" />
+    <link rel="stylesheet" href="../assets/css/vendor/animate.css" />
+    <link rel="stylesheet" href="../assets/css/vendor/font-awesome.min.css" />
+    <link rel="stylesheet" href="../assets/js/vendor/animsition/css/animsition.min.css" />
+    <link rel="stylesheet" href="../assets/js/vendor/daterangepicker/daterangepicker-bs3.css" />
+    <link rel="stylesheet" href="../assets/js/vendor/morris/morris.css" />
+    <link rel="stylesheet" href="../assets/js/vendor/owl-carousel/owl.carousel.css" />
+    <link rel="stylesheet" href="../assets/js/vendor/owl-carousel/owl.theme.css" />
+    <link rel="stylesheet" href="../assets/js/vendor/rickshaw/rickshaw.min.css" />
+    <link rel="stylesheet" href="../assets/js/vendor/datetimepicker/css/bootstrap-datetimepicker.min.css" />
+    <link rel="stylesheet" href="../assets/js/vendor/datatables/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" href="../assets/js/vendor/datatables/datatables.bootstrap.min.css" />
+    <link rel="stylesheet" href="../assets/js/vendor/chosen/chosen.css" />
+    <link rel="stylesheet" href="../assets/js/vendor/summernote/summernote.css" />
+    <style>
+        .edit, .delete {
+            cursor: pointer;
+        }
+    </style>
+    <!-- project main css files -->
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <!--/ stylesheets -->
+
+    <!-- ==========================================
+        ================= Modernizr ===================
+        =========================================== -->
+    <script src="../assets/js/vendor/modernizr/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <script type="text/javascript">
+        // disable browser back button --Code By Pravanjan Nayak
+        history.pushState(null, null, location.href);
+        history.back();
+        history.forward();
+        window.onpopstate = function () { history.go(1); };
+    </script>
+    <script>
+        $('.reset').click(function () {
+            location.reload();
+        });
+    </script>
+    <script type="text/javascript">
+        // Allowed only one Number --Code By Pravanjan Nayak
+        function isNumberKey(evt) {
+            var charCode = (evt.which) ? evt.which : event.keyCode
+            if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+    <script type="text/javascript">
+        //Not Allowed To Spaces --Code By Pravanjan Nayak
+        function IsSpace(evt) {
+            var charCode = (evt.which) ? evt.which : event.keyCode
+            if (charCode == 32) {
+                return false;
+            }
+            return true;
+        }
+    </script>
+    <script type="text/javascript">
+        // Allowed only one Spaces --Code By Pravanjan Nayak
+        function AllowSpace(txt) {
+            var strText = txt.value;
+            var strArr = new Array();
+            strArr = strText.split(" ");
+            for (var i = 0; i < strArr.length ; i++) {
+                if (strArr[i] == "") {
+                    alert("There must be one space between words!");
+                    txt.value = "";
+                    txt.focus();
+                    return false;
+                }
+            }
+        }
+    </script>
+    
+    <!--/ modernizr -->
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body id="minovate" class="appWrapper">
+    <form id="form1" runat="server">
+        <!-- ====================================================
+        ================= Application Content ===================
+        ===================================================== -->
+        <div id="wrap" class="animsition">
+            <!-- ===============================================
+            ================= HEADER Content ===================
+            ================================================ -->
+            <section id="header">
+                <header class="clearfix">
+                    <!-- Branding -->
+                    <div class="branding">
+                        <a class="brand" href="Dashboard.aspx">
+                            <%--<img src="../assets/images/logo.png" alt="RTO" />--%>
+                            <span><strong>RTO</strong> CUTTACK</span>
+                        </a>
+                        <a role="button" tabindex="0" class="offcanvas-toggle visible-xs-inline"><i class="fa fa-bars"></i></a>
+                    </div>
+                    <ul class="nav-left pull-left list-unstyled list-inline">
+                        <li class="sidebar-collapse divided-right">
+                            <a role="button" tabindex="0" class="collapse-sidebar">
+                                <i class="fa fa-outdent"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- Branding end -->
+                    <ul class="nav-right pull-right list-inline">
+                        <li class="dropdown nav-profile">
+                            <a href="Profile_Details.aspx" class="dropdown-toggle" data-toggle="dropdown">
+                                <img src="../assets/images/admin.png" alt="" class="img-circle size-30x30" style="background-color: white;" />
+                                <span>Admin<i class="fa fa-angle-down"></i></span>
+                            </a>
+
+                            <ul class="dropdown-menu animated littleFadeInRight" role="menu">
+                               <%-- <li>
+                                    <a href="Profile_Details.aspx">
+                                        <i class="fa fa-user"></i>Profile
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="SMS_Settings.aspx">
+                                        <i class="fa fa-cog"></i>Settings
+                                    </a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a href="Admin_Locked.aspx">
+                                        <i class="fa fa-lock"></i>Lock
+                                    </a>
+                                </li>--%>
+                                <li>
+                                    <a class="logout" runat="server" onserverclick="btnlogin2_ServerClick" id="btnlogin2">
+                                        <i class="fa fa-sign-out"></i>Logout
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="toggle-right-sidebar" style="display: none;">
+                            <a href="#">
+                                <i class="fa fa-users"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </header>
+            </section>
+            <!--/ HEADER Content  -->
+            <!-- =================================================
+            ================= CONTROLS Content ===================
+            ================================================== -->
+            <div id="controls">
+
+                <!-- ================================================
+                ================= SIDEBAR Content ===================
+                ================================================= -->
+                <aside id="sidebar">
+                    <div id="sidebar-wrap">
+                        <div class="panel-group slim-scroll" role="tablist">
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" href="#sidebarNav">Navigation <i class="fa fa-angle-up"></i>
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="sidebarNav" class="panel-collapse collapse in" role="tabpanel">
+                                    <div class="panel-body">
+
+                                        <!-- ===================================================
+                                        ================= NAVIGATION Content ===================
+                                        ==================================================== -->
+                                        <ul id="navigation">
+                                            <li class="active"><a href="Dashboard.aspx"><i class="fa fa-dashboard"></i><span>Dashboard</span></a></li>
+                                            <li>
+                                                <a role="button" tabindex="0"><i class="fa fa-file-o"></i><span>Master Entry</span></a>
+                                                <ul>
+                                                    <li><a href="ChooseService.aspx"><i class="fa fa-cogs"></i>Choose Services</a></li>
+                                                     <li><a href="CounterMaster.aspx"><i class="fa fa-sitemap"></i>Counter</a></li>
+<%--                                                    <li><a href="Department_Details.aspx"><i class="fa fa-sitemap"></i>Department</a></li>--%>
+                                                    <li><a href="StaffMaster.aspx"><i class="fa fa-users"></i>Staff Entry</a></li>
+                                                    <li><a href="Assign.aspx"><i class="fa fa-user"></i>Assign</a></li>
+                                                    <%-- <li><a href="LL_Series_Call.aspx"><i class="fa fa-book"></i>LL Series Call</a></li>--%>
+                                                </ul>
+                                            </li>
+<%--                                            <li>
+                                                <a role="button" tabindex="0"><i class="fa fa-book"></i><span>Daily Upload Data</span></a>
+                                                <ul>
+                                                    <li><a href="Upload_LL_Data.aspx"><i class="fa fa-file-text"></i>Learning Licence</a></li>
+                                                    <li><a href="Upload_DL_Data.aspx"><i class="fa fa-file-text"></i>Driving licence</a></li>
+                                                </ul>
+                                            </li>--%>
+
+                                            <li>
+                                                <a role="button" tabindex="0"><i class="fa fa-cog"></i><span>Settings</span></a>
+                                                <ul>
+                                                    <%--<li><a href="SMS_Settings.aspx"><i class="fa fa-envelope"></i>SMS Settings</a></li>--%>
+                                                    <li><a href="DisplayTimeSettings.aspx"><i class="fa fa-clock-o"></i>Display Time Setting</a></li>
+                                                    <%--<li><a href="Upload_Video_DemoRoom.aspx"><i class="fa fa-video-camera"></i>Upload Video</a></li>--%>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a role="button" tabindex="0"><i class="fa fa-bar-chart"></i><span>Reports</span></a>
+                                                <ul>
+                                                    <%-- <li><a href="#"><i class="fa fa-caret-right"></i>Chart Report</a></li>--%>
+                                                    <li><a href="#"><i class="fa fa-caret-right"></i>Applicant Report</a></li>
+                                                    <li><a href="#"><i class="fa fa-caret-right"></i>Staff Report</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a role="button" tabindex="0" runat="server" onserverclick="btnlogout_ServerClick" id="btnlogout"><i class="fa fa-sign-out"></i>Logout</a></li>
+                                        </ul>
+                                        <!--/ NAVIGATION Content -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+                <!--/ SIDEBAR Content -->
+                <!-- =================================================
+                ================= RIGHTBAR Content ===================
+                ================================================== -->
+                <!--/ RIGHTBAR Content -->
+            </div>
+            <!--/ CONTROLS Content -->
+            <!-- ====================================================
+            ================= CONTENT ===============================
+            ===================================================== -->
+            <section id="content">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </section>
+            <!--/ CONTENT -->
+        </div>
+    </form>
+    <footer>
+    </footer>
+    <!--/ Application Content -->
+
+    <!-- ============================================
+        ============== Vendor JavaScripts ===============
+        ============================================= -->
+    <script src="../../ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery/jquery-1.11.2.min.js"><\/script>')</script>
+
+    <script src="../assets/js/vendor/bootstrap/bootstrap.min.js"></script>
+
+    <script src="../assets/js/vendor/jRespond/jRespond.min.js"></script>
+
+    <script src="../assets/js/vendor/d3/d3.min.js"></script>
+    <script src="../assets/js/vendor/d3/d3.layout.min.js"></script>
+
+    <script src="../assets/js/vendor/rickshaw/rickshaw.min.js"></script>
+
+    <script src="../assets/js/vendor/sparkline/jquery.sparkline.min.js"></script>
+
+    <script src="../assets/js/vendor/slimscroll/jquery.slimscroll.min.js"></script>
+
+    <script src="../assets/js/vendor/animsition/js/jquery.animsition.min.js"></script>
+
+    <script src="../assets/js/vendor/daterangepicker/moment.min.js"></script>
+    <script src="../assets/js/vendor/daterangepicker/daterangepicker.js"></script>
+
+    <script src="../assets/js/vendor/screenfull/screenfull.min.js"></script>
+
+    <script src="../assets/js/vendor/flot/jquery.flot.min.js"></script>
+    <script src="../assets/js/vendor/flot-tooltip/jquery.flot.tooltip.min.js"></script>
+    <script src="../assets/js/vendor/flot-spline/jquery.flot.spline.min.js"></script>
+
+    <script src="../assets/js/vendor/easypiechart/jquery.easypiechart.min.js"></script>
+
+    <script src="../assets/js/vendor/raphael/raphael-min.js"></script>
+    <script src="../assets/js/vendor/morris/morris.min.js"></script>
+
+    <script src="../assets/js/vendor/owl-carousel/owl.carousel.min.js"></script>
+
+    <script src="../assets/js/vendor/datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+
+    <script src="../assets/js/vendor/datatables/js/jquery.dataTables.min.js"></script>
+    <script src="../assets/js/vendor/datatables/extensions/dataTables.bootstrap.js"></script>
+
+    <script src="../assets/js/vendor/chosen/chosen.jquery.min.js"></script>
+
+    <script src="../assets/js/vendor/summernote/summernote.min.js"></script>
+
+    <script src="../assets/js/vendor/coolclock/coolclock.js"></script>
+    <script src="../assets/js/vendor/coolclock/excanvas.js"></script>
+    <!--/ vendor javascripts -->
+
+
+
+
+
+    <!-- ============================================
+        ============== Custom JavaScripts ===============
+        ============================================= -->
+    <script src="../assets/js/main.js"></script>
+    <!--/ custom javascripts -->
+
+    <!-- ===============================================
+        ============== Page Specific Scripts ===============
+        ================================================ -->
+    <script>
+        $('.tile-refresh').click(function () {
+            window.location.reload();
+        });
+    </script>
+    <!--/ Page Specific Scripts -->
+</body>
+</html>

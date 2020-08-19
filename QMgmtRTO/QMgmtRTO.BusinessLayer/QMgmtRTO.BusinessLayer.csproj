@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{731DAC34-A190-4B23-8A33-7F3851006B96}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QMgmtRTO.BusinessLayer</RootNamespace>
+    <AssemblyName>QMgmtRTO.BusinessLayer</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Scripts\jquery-3.5.1.min.map" />
+    <None Include="Scripts\jquery-3.5.1.slim.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QMgmtRTO.DataAccessLayer\QMgmtRTO.DataAccessLayer.csproj">
+      <Project>{d8609385-44bd-44b4-ac79-aa02bf8d6215}</Project>
+      <Name>QMgmtRTO.DataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QMgmtRTO.Entities\QMgmtRTO.Entities.csproj">
+      <Project>{9d80b7e7-68fa-466c-af2e-0c57ec998ed6}</Project>
+      <Name>QMgmtRTO.Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountManager.cs" />
+    <Compile Include="Applicant\DisplayResult.cs" />
+    <Compile Include="Applicant\DisplayTestQueue.cs" />
+    <Compile Include="Applicant\DisplayWelcome.cs" />
+    <Compile Include="Applicant\KioskRegistration.cs" />
+    <Compile Include="Display\EntranceManager.cs" />
+    <Compile Include="Display\tokendisplay.cs" />
+    <Compile Include="LoginInfo.cs" />
+    <Compile Include="OfficeService.cs" />
+    <Compile Include="PasswordEncryp.cs" />
+    <Compile Include="ReportsManager.cs" />
+    <Compile Include="RTOAdmin\RTOCounterStaffServiceManager.cs" />
+    <Compile Include="RTOAdmin\ImportAPIManager.cs" />
+    <Compile Include="RTOAdmin\RTOAdminReport.cs" />
+    <Compile Include="RTOStaff\DisplayCounterService.cs" />
+    <Compile Include="RTOStaff\TokenCall.cs" />
+    <Compile Include="SMSManager.cs" />
+    <Compile Include="SuperAdmin\PreTestRoomDisplay.cs" />
+    <Compile Include="SuperAdmin\SuperAdminCentreManager.cs" />
+    <Compile Include="SuperAdmin\SuperAdminReportManager.cs" />
+    <Compile Include="SuperAdmin\SuperAdminServiceManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\jquery-3.5.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.5.1.js" />
+    <Content Include="Scripts\jquery-3.5.1.min.js" />
+    <Content Include="Scripts\jquery-3.5.1.slim.js" />
+    <Content Include="Scripts\jquery-3.5.1.slim.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

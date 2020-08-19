@@ -1,0 +1,95 @@
+E:\SHAKTI - PROJECTS\Final Layered RTO - SPM\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Debug\QMgmtRTO.DataAccessLayer.csprojResolveAssemblyReference.cache
+E:\SHAKTI - PROJECTS\Final Layered RTO - SPM\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.DataAccessLayer.dll.config
+E:\SHAKTI - PROJECTS\Final Layered RTO - SPM\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.DataAccessLayer.dll
+E:\SHAKTI - PROJECTS\Final Layered RTO - SPM\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.DataAccessLayer.pdb
+E:\SHAKTI - PROJECTS\Final Layered RTO - SPM\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Debug\QMgmtRTO.DataAccessLayer.dll
+E:\SHAKTI - PROJECTS\Final Layered RTO - SPM\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Debug\QMgmtRTO.DataAccessLayer.pdb
+E:\SVN_CHECKOUT\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Debug\QMgmtRTO.DataAccessLayer.csprojResolveAssemblyReference.cache
+E:\SVN_CHECKOUT\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Debug\QMgmtRTO.DataAccessLayer.dll
+E:\SVN_CHECKOUT\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Debug\QMgmtRTO.DataAccessLayer.pdb
+E:\SVN_CHECKOUT\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.DataAccessLayer.dll.config
+E:\SVN_CHECKOUT\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.DataAccessLayer.dll
+E:\SVN_CHECKOUT\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.DataAccessLayer.pdb
+E:\SVN_CHECKOUT\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.Entities.dll
+E:\SVN_CHECKOUT\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.Entities.pdb
+E:\SVN_CHECKOUT_SERVER\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.DataAccessLayer.dll.config
+E:\SVN_CHECKOUT_SERVER\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.DataAccessLayer.dll
+E:\SVN_CHECKOUT_SERVER\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.DataAccessLayer.pdb
+E:\SVN_CHECKOUT_SERVER\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.Entities.dll
+E:\SVN_CHECKOUT_SERVER\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.Entities.pdb
+E:\SVN_CHECKOUT_SERVER\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Debug\QMgmtRTO.DataAccessLayer.csprojResolveAssemblyReference.cache
+E:\SVN_CHECKOUT_SERVER\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Debug\QMgmtRTO.DataAccessLayer.dll
+E:\SVN_CHECKOUT_SERVER\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Debug\QMgmtRTO.DataAccessLayer.pdb
+E:\RTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Debug\QMgmtRTO.DataAccessLayer.csprojResolveAssemblyReference.cache
+E:\RTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Debug\QMgmtRTO.DataAccessLayer.dll
+E:\RTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Debug\QMgmtRTO.DataAccessLayer.pdb
+E:\RTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.DataAccessLayer.dll.config
+E:\RTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.DataAccessLayer.dll
+E:\RTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.DataAccessLayer.pdb
+E:\RTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.Entities.dll
+E:\RTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.Entities.pdb
+D:\WorkingProject\SVNRTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.DataAccessLayer.dll.config
+D:\WorkingProject\SVNRTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.DataAccessLayer.dll
+D:\WorkingProject\SVNRTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.DataAccessLayer.pdb
+D:\WorkingProject\SVNRTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.Entities.dll
+D:\WorkingProject\SVNRTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.Entities.pdb
+D:\WorkingProject\SVNRTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Debug\QMgmtRTO.DataAccessLayer.csprojResolveAssemblyReference.cache
+D:\WorkingProject\SVNRTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Debug\QMgmtRTO.DataAccessLayer.dll
+D:\WorkingProject\SVNRTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Debug\QMgmtRTO.DataAccessLayer.pdb
+E:\13Jul2020 Checkout\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.DataAccessLayer.dll.config
+E:\13Jul2020 Checkout\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.DataAccessLayer.dll
+E:\13Jul2020 Checkout\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.DataAccessLayer.pdb
+E:\13Jul2020 Checkout\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.Entities.dll
+E:\13Jul2020 Checkout\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.Entities.pdb
+E:\13Jul2020 Checkout\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Debug\QMgmtRTO.DataAccessLayer.csprojResolveAssemblyReference.cache
+E:\13Jul2020 Checkout\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Debug\QMgmtRTO.DataAccessLayer.dll
+E:\13Jul2020 Checkout\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Debug\QMgmtRTO.DataAccessLayer.pdb
+D:\RTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.DataAccessLayer.dll.config
+D:\RTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.DataAccessLayer.dll
+D:\RTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.DataAccessLayer.pdb
+D:\RTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.Entities.dll
+D:\RTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.Entities.pdb
+D:\RTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Debug\QMgmtRTO.DataAccessLayer.dll
+D:\RTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Debug\QMgmtRTO.DataAccessLayer.pdb
+D:\new chkouot\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.DataAccessLayer.dll.config
+D:\new chkouot\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.DataAccessLayer.dll
+D:\new chkouot\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.DataAccessLayer.pdb
+D:\new chkouot\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.Entities.dll
+D:\new chkouot\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.Entities.pdb
+D:\new chkouot\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.Entities.dll.config
+D:\new chkouot\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Debug\QMgmtRTO.DataAccessLayer.csprojAssemblyReference.cache
+D:\new chkouot\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Debug\QMgmtRTO.DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\new chkouot\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Debug\QMgmtRTO.DataAccessLayer.csproj.CopyComplete
+D:\new chkouot\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Debug\QMgmtRTO.DataAccessLayer.dll
+D:\new chkouot\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Debug\QMgmtRTO.DataAccessLayer.pdb
+D:\checkout 5- 16-07-2020\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Debug\QMgmtRTO.DataAccessLayer.csprojAssemblyReference.cache
+D:\checkout 5- 16-07-2020\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Debug\QMgmtRTO.DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\checkout 5- 16-07-2020\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Debug\QMgmtRTO.DataAccessLayer.dll
+D:\checkout 5- 16-07-2020\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Debug\QMgmtRTO.DataAccessLayer.pdb
+D:\checkout 5- 16-07-2020\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.DataAccessLayer.dll.config
+D:\checkout 5- 16-07-2020\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.DataAccessLayer.dll
+D:\checkout 5- 16-07-2020\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.DataAccessLayer.pdb
+D:\checkout 5- 16-07-2020\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.Entities.dll
+D:\checkout 5- 16-07-2020\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.Entities.pdb
+D:\checkout 5- 16-07-2020\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.Entities.dll.config
+D:\checkout 5- 16-07-2020\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Debug\QMgmtRTO.DataAccessLayer.csproj.CopyComplete
+D:\RTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.Entities.dll.config
+D:\RTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Debug\QMgmtRTO.DataAccessLayer.csprojAssemblyReference.cache
+D:\RTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Debug\QMgmtRTO.DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\RTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Debug\QMgmtRTO.DataAccessLayer.csproj.CopyComplete
+E:\BLDL2\RTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.DataAccessLayer.dll.config
+E:\BLDL2\RTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.DataAccessLayer.dll
+E:\BLDL2\RTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.DataAccessLayer.pdb
+E:\BLDL2\RTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.Entities.dll
+E:\BLDL2\RTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.Entities.pdb
+E:\BLDL2\RTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Debug\QMgmtRTO.DataAccessLayer.csprojResolveAssemblyReference.cache
+E:\BLDL2\RTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Debug\QMgmtRTO.DataAccessLayer.dll
+E:\BLDL2\RTO\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Debug\QMgmtRTO.DataAccessLayer.pdb
+D:\WorkingProject\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.DataAccessLayer.dll.config
+D:\WorkingProject\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.DataAccessLayer.dll
+D:\WorkingProject\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.DataAccessLayer.pdb
+D:\WorkingProject\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.Entities.dll
+D:\WorkingProject\QMgmtRTO\QMgmtRTO.DataAccessLayer\bin\Debug\QMgmtRTO.Entities.pdb
+D:\WorkingProject\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Debug\QMgmtRTO.DataAccessLayer.csprojResolveAssemblyReference.cache
+D:\WorkingProject\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Debug\QMgmtRTO.DataAccessLayer.dll
+D:\WorkingProject\QMgmtRTO\QMgmtRTO.DataAccessLayer\obj\Debug\QMgmtRTO.DataAccessLayer.pdb

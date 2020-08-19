@@ -1,0 +1,11 @@
+E:\RTO\QMgmtRTO\QMgmtRTO.WebLayer\bin\QMgmtRTO.WebLayer.dll
+E:\RTO\QMgmtRTO\QMgmtRTO.WebLayer\bin\QMgmtRTO.WebLayer.pdb
+E:\RTO\QMgmtRTO\QMgmtRTO.WebLayer\bin\QMgmtRTO.BusinessLayer.dll
+E:\RTO\QMgmtRTO\QMgmtRTO.WebLayer\bin\QMgmtRTO.Entities.dll
+E:\RTO\QMgmtRTO\QMgmtRTO.WebLayer\bin\QMgmtRTO.DataAccessLayer.dll
+E:\RTO\QMgmtRTO\QMgmtRTO.WebLayer\bin\QMgmtRTO.BusinessLayer.pdb
+E:\RTO\QMgmtRTO\QMgmtRTO.WebLayer\bin\QMgmtRTO.Entities.pdb
+E:\RTO\QMgmtRTO\QMgmtRTO.WebLayer\bin\QMgmtRTO.DataAccessLayer.pdb
+E:\RTO\QMgmtRTO\QMgmtRTO.WebLayer\obj\Release\QMgmtRTO.WebLayer.csprojResolveAssemblyReference.cache
+E:\RTO\QMgmtRTO\QMgmtRTO.WebLayer\obj\Release\QMgmtRTO.WebLayer.dll
+E:\RTO\QMgmtRTO\QMgmtRTO.WebLayer\obj\Release\QMgmtRTO.WebLayer.pdb

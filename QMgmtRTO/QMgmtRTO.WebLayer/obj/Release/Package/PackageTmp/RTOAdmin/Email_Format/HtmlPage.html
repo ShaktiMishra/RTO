@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <style>
+        .container {
+            position: relative;
+            text-align: center;
+            color: black;
+        }
+
+        .bottom-left {
+            position: absolute;
+            bottom: 8px;
+            left: 16px;
+        }
+
+        .top-left {
+            position: absolute;
+            top: 8px;
+            left: 16px;
+        }
+
+        .top-right {
+            position: absolute;
+            top: 8px;
+            right: 16px;
+        }
+
+        .top-center {
+            position: absolute;
+            top: 0px;
+            right: 580px;
+            color: white;
+        }
+
+        .bottom-right {
+            position: absolute;
+            bottom: 8px;
+            right: 16px;
+        }
+
+        .align {
+            position: absolute;
+            top: 305px;
+            right: 950px;
+            font-size: 21px;
+        }
+
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: 215px;
+            /* margin-right: -69px; */
+            margin-left: -179px;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <img src="http://hoteladhar.com/img/banner_adhar_hotel.jpg" alt="Snow" style="width: 100%;" />
+
+        <div class="bottom-left">
+        </div>
+        <div class="top-left">
+            <a href="http://www.shreevineeth.com//">
+                <img src="http://shreevineeth.com/Home_files/logo.png" alt="Hotel Shree Vineeths" width="120px" height="120px" title="Shree Vineeths" border="0" /></a>
+        </div>
+        <!--<div class="top-right">Top Right</div>
+        <div class="bottom-right">Bottom Right</div>-->
+        <div class="top-center">
+            <h1>Hotel Shree Vineeths</h1>
+        </div>
+        <!--<div class="align">{subject}</div>-->
+        <div class="align">CHECKED IN SUCCESSFULLY !!!!!!</div>
+        <div class="top-right">{UserName},</div>
+        <div class="top-right">{description}</div>
+        <div class="top-right">{endPrt1}</div>
+        <div class="top-right">{endPrt2}</div>
+
+        <!-- <div class="centered">
+            <h1>Adhar Regency welcomes you with its wide array of services to cater the business and leisure travelers</h1>
+        </div>-->
+    </div>
+</body>
+</html>

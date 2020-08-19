@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D8609385-44BD-44B4-AC79-AA02BF8D6215}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QMgmtRTO.DataAccessLayer</RootNamespace>
+    <AssemblyName>QMgmtRTO.DataAccessLayer</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountManagerDAO.cs" />
+    <Compile Include="Applicant\DisplayEntranceDAO.cs" />
+    <Compile Include="Applicant\DisplayResultDAO.cs" />
+    <Compile Include="Applicant\DisplayTestQueueDAO.cs" />
+    <Compile Include="Applicant\KioskRegistrationDAO.cs" />
+    <Compile Include="Common\DAO.cs" />
+    <Compile Include="Display\EntranceDAO.cs" />
+    <Compile Include="Display\tokendisplay.cs" />
+    <Compile Include="ReportsDAO.cs" />
+    <Compile Include="RTOAdmin\ImportAPIDAO.cs" />
+    <Compile Include="RTOAdmin\RTOAdminReportDAO.cs" />
+    <Compile Include="RTOAdmin\RTOCounterStaffServiceDAO.cs" />
+    <Compile Include="RTOStaff\DisplayCounterServiceDAO.cs" />
+    <Compile Include="RTOStaff\TokenCallDAO.cs" />
+    <Compile Include="SuperAdmin\PreTestRoomDisplayDAO.cs" />
+    <Compile Include="SuperAdmin\SuperAdminCentreDAO.cs" />
+    <Compile Include="SuperAdmin\SuperAdminReportDAO.cs" />
+    <Compile Include="SuperAdmin\SuperAdminServiceDAO.cs" />
+    <Compile Include="VerifyLoginDAL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QMgmtRTO.Entities\QMgmtRTO.Entities.csproj">
+      <Project>{9d80b7e7-68fa-466c-af2e-0c57ec998ed6}</Project>
+      <Name>QMgmtRTO.Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Common\DB Files\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Email_Format\ActivationeMail.html" />
+    <Content Include="Email_Format\HtmlPage.html" />
+    <Content Include="Email_Format\WelcomeMail.html" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
